@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+}
+
+video {
+  margin: 0;
+  padding: 0;
+}
+
+#video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity:.25;
+  z-index: 0;
+}
+
+#container{
+    background-color: green;
+    height: 300px;
+}
+
+#form{
+    height: 300px;
+}
+
+#elementosForm{
+    z-index: 99;
+}
+
+#nis, #botao{
+    height: 50px;
+}
+
+#logo{
+    position: relative;
+    z-index: 99;
+    height: 200px;
+}
+
+img{
+   z-index: 99;
+}
+
+#containerPrincipal{
+    height: 100%;
+    background-color: rgb(67,160,71);    
+}
+
+#containerCard{
+    height: 100%;
+}
+
+#conteudo{
+    z-index: 99;
+}
+
+#descricao{
+    color: white;
+    z-index: 99;
+}
+
+#botao{
+    margin-left: -3px;
+    background-color: #ffd740;
+}
+
+#myModal{
+    z-index: 9999;
+}
+
+.modal-backdrop{
+    z-index: 1 !important;
+}
+
+#infoErro{
+    font-weight: bold;
+}
